@@ -1,9 +1,3 @@
-This repository is for the React Training purpose. It is based on `create-react-app` project. Please see below how to work with it.
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -15,7 +9,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
 
 ### `npm run build`
 
