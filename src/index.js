@@ -1,4 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<p>Your App goes here....</p>, document.getElementById('root'));
+import events from './data/events.json';
+
+
+
+ReactDOM.render(<ul>
+
+    {
+        events.map(item => {
+            return (
+                <li key={item.id}>
+                    <strong>{item.name}</strong>
+                    <br/>
+                    Gdzie: {item.place} <br/>
+                    Kiedy: {item.date}
+
+                </li>)
+        })
+    }
+</ul>, document.getElementById('root'));
